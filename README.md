@@ -22,10 +22,10 @@ Differences from actual Bootstrap documentation:
 Here you can see what the site's performance was prior to doing performance stuff.
 
 ### Filmstrip
-[filmstrip](./readme-images/PM-before-filmstrip.png)
+![filmstrip](./readme-images/PM-before-filmstrip.png)
 
 ### Chrome DevTools Audit
-[DevTools Audit](./readme-images/PM-before-chromeAudit.png)
+![DevTools Audit](./readme-images/PM-before-chromeAudit.png)
 
 ### PageSpeed Insights
-[PageSpeed Insights](./readme-images/PM-before-PageSpeedInsights.png)
+![PageSpeed Insights](./readme-images/PM-before-PageSpeedInsights.png)
