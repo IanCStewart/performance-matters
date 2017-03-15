@@ -29,3 +29,7 @@ Here you can see what the site's performance was prior to doing performance stuf
 
 ### PageSpeed Insights
 ![PageSpeed Insights](./readme-images/PM-before-PageSpeedInsights.png)
+
+## Audit || FOIT
+
+Next step is to make sure the font will show fallback fonts when our fancy font is not there yet so we don't have an empty page. I will be doing this with [bramstein/fontfaceobserver](https://github.com/bramstein/fontfaceobserver).
