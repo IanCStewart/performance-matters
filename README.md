@@ -33,3 +33,13 @@ Here you can see what the site's performance was prior to doing performance stuf
 ## Audit || FOIT
 
 Next step is to make sure the font will show fallback fonts when our fancy font is not there yet so we don't have an empty page. I will be doing this with [bramstein/fontfaceobserver](https://github.com/bramstein/fontfaceobserver).
+
+### Filmstrip
+After introducing this font switch u can see that instead of 9.0s for first text show, we brought it back to 5.5s.
+![filmstrip](./readme-images/PM-FOIT-filmstrip.png)
+
+### Chrome DevTools Audit
+Has stayed the same.
+
+### PageSpeed Insights
+Has stayed the same.
