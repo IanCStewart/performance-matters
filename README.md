@@ -46,3 +46,19 @@ Seems pretty much the same.
 ### PageSpeed Insights
 I lost one point...
 ![PageSpeed Insights](./readme-images/PM-loadCSS-PageSpeedInsights.png)
+
+## Audit || criticalCSS
+
+Next step is to make the above the content above the fold instantly styled.  I will be doing this with [critical css](https://jonassebastianohlsson.com/criticalpathcssgenerator/).
+
+
+### Filmstrip
+This will result in a way faster full render.
+![filmstrip](./readme-images/PM-critical-filmstrip.png)
+
+### Chrome DevTools Audit
+Stayed the same.
+
+### PageSpeed Insights
+Gained 11 points :tada:
+![PageSpeed Insights](./readme-images/PM-critical-PageSpeedInsights.png)
