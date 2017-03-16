@@ -29,3 +29,20 @@ Here you can see what the site's performance was prior to doing performance stuf
 
 ### PageSpeed Insights
 ![PageSpeed Insights](./readme-images/PM-before-PageSpeedInsights.png)
+
+## Audit || loadCSS
+
+Next step is to make the css load async instead.  I will be doing this with [filamentgroup/loadcss](https://github.com/filamentgroup/loadCSS).
+
+
+### Filmstrip
+It seems the html indeed loads on screen way earlier. But the complete render takes way longer.
+![filmstrip](./readme-images/PM-loadCSS-filmstrip.png)
+
+### Chrome DevTools Audit
+Seems pretty much the same.
+![DevTools Audit](./readme-images/PM-loadCSS-chromeAudit.png)
+
+### PageSpeed Insights
+I lost one point...
+![PageSpeed Insights](./readme-images/PM-loadCSS-PageSpeedInsights.png)
