@@ -81,3 +81,22 @@ Stayed the same.
 Gained 11 points :tada:
 
 ![PageSpeed Insights](./readme-images/PM-critical-PageSpeedInsights.png)
+
+## Audit || Minify
+
+Next we can compress and minify some files.
+
+### Filmstrip
+Pushed back to 3.5s.
+
+![filmstrip](./readme-images/PM-minify-filmstrip.png)
+
+### Chrome DevTools Audit
+Fixes lots of points here.
+
+![DevTools Audit](./readme-images/PM-minify-chromeAudit.png)
+
+### PageSpeed Insights
+Gained 23 points :tada:
+
+![PageSpeed Insights](./readme-images/PM-minify-PageSpeedInsights.png)

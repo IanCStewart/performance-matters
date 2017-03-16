@@ -6,9 +6,9 @@
 
   var fontStyles = loadCSS('/dist/css/fonts.css', document.getElementById("loadcss"));
   onloadCSS(fontStyles, function() {
-    var bootstrapStyles = loadCSS('/dist/css/bootstrap.css', document.getElementById("loadcss"));
+    var bootstrapStyles = loadCSS('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css', document.getElementById("loadcss"));
     onloadCSS(bootstrapStyles, function() {
-      var docsStyles = loadCSS('/assets/css/src/docs.css', document.getElementById("loadcss"));
+      var docsStyles = loadCSS('/assets/css/src/docs.min.css', document.getElementById("loadcss"));
     });
   });
 
