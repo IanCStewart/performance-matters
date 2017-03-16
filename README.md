@@ -43,3 +43,41 @@ Has stayed the same.
 
 ### PageSpeed Insights
 Has stayed the same.
+
+## Audit || loadCSS
+
+Next step is to make the css load async instead.  I will be doing this with [filamentgroup/loadcss](https://github.com/filamentgroup/loadCSS).
+
+
+### Filmstrip
+It seems the html indeed loads on screen way earlier. But the complete render takes way longer.
+
+![filmstrip](./readme-images/PM-loadCSS-filmstrip.png)
+
+### Chrome DevTools Audit
+Seems pretty much the same.
+
+![DevTools Audit](./readme-images/PM-loadCSS-chromeAudit.png)
+
+### PageSpeed Insights
+I lost one point...
+
+![PageSpeed Insights](./readme-images/PM-loadCSS-PageSpeedInsights.png)
+
+## Audit || criticalCSS
+
+Next step is to make the above the content above the fold instantly styled.  I will be doing this with [critical css](https://jonassebastianohlsson.com/criticalpathcssgenerator/).
+
+
+### Filmstrip
+This will result in a way faster full render.
+
+![filmstrip](./readme-images/PM-critical-filmstrip.png)
+
+### Chrome DevTools Audit
+Stayed the same.
+
+### PageSpeed Insights
+Gained 11 points :tada:
+
+![PageSpeed Insights](./readme-images/PM-critical-PageSpeedInsights.png)
