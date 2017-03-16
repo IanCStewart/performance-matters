@@ -29,3 +29,20 @@ Here you can see what the site's performance was prior to doing performance stuf
 
 ### PageSpeed Insights
 ![PageSpeed Insights](./readme-images/PM-before-PageSpeedInsights.png)
+
+## Audit || gzip
+
+Next we will add gzip on the server side.
+
+### Filmstrip
+the filmstrip stayed pretty much the same.
+
+### Chrome DevTools Audit
+gzip note dissapeared.
+
+![DevTools Audit](./readme-images/PM-gzip-chromeAudit.png)
+
+### PageSpeed Insights
+Gained 13 points :tada:
+
+![PageSpeed Insights](./readme-images/PM-gzip-PageSpeedInsights.png)
