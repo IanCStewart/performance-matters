@@ -3,9 +3,7 @@
 <head>
     {% include './app-meta.html' %}
 
-    <link href="/dist/css/fonts.css" rel="stylesheet">
-    <link href="/dist/css/bootstrap.css" rel="stylesheet">
-    <link href="/assets/css/src/docs.css" rel="stylesheet">
+    {% include './head-scripts.html' %}
 
     {% block head_extra %}{% endblock %}
 </head>
@@ -14,8 +12,8 @@
 
     {% block body %}{% endblock %}
 
-    <script src="/assets/js/vendor/jquery.min.js"></script>
-    <script src="/dist/js/bootstrap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="/assets/js/docs.min.js"></script>
     <script src="/assets/js/ie10-viewport-bug-workaround.js"></script>
     {% block scripts_extra %}{% endblock %}
