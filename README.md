@@ -117,3 +117,20 @@ gzip note dissapeared.
 Gained 13 points :tada:
 
 ![PageSpeed Insights](./readme-images/PM-gzip-PageSpeedInsights.png)
+
+## Audit || Final
+
+After combining all the adjustments together I got the following results.
+
+### Filmstrip
+![filmstrip](./readme-images/PM-final-filmstrip.png)
+
+### Chrome DevTools Audit
+Still some stuff left.
+
+![DevTools Audit](./readme-images/PM-final-chromeAudit.png)
+
+### PageSpeed Insights
+100/100 :tada:!!!!
+
+![PageSpeed Insights](./readme-images/PM-final-PageSpeedInsights.png)
